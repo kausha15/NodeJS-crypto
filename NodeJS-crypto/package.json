@@ -1,0 +1,25 @@
+{
+  "name": "crypto_nodejs",
+  "version": "1.0.0",
+  "description": "Node Js Program to fetch token/date based portfolio values for each crypto currencies",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "crypto": "./bin/index.js"
+  },
+  "dependencies": {
+    "csv-parse": "^4.16.0",
+    "fs": "0.0.1-security",
+    "grep": "^0.1.0",
+    "json": "^11.0.0",
+    "mongodb": "^4.1.0",
+    "mongoimport": "^1.0.6",
+    "print": "^1.2.0",
+    "request": "^2.88.2",
+    "yargs": "^13.2.4"
+  }
+}
